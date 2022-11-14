@@ -1,0 +1,60 @@
+
+/*-------------------------------------------- Reset */
+
+* {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: red solid 1px;
+}
+
+/*-------------------------------------------- fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,900;1,300&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/*-------------------------------------------- Variables */
+
+:root {
+  --first-color: #8a2be2;
+  --second-color: #463f3a;
+  --third-colo: #53f4ff;
+
+  --first-black: #000;
+  --first-withe: #fff;
+}
+
+/*-------------------------------------------- header */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20%;
+  background-color: var(--second-color);
+}
+
+.logo {
+  height: auto;
+  width: 100px;
+  background-color: var(--first-color);
+  border-radius: 50%;
+  border: black solid 2px;
+}
+
+.nav-bar {
+  display: flex;
+  gap: 20px;
+}
+.action {
+  color: var(--first-withe);
+}
+
+
