@@ -92,6 +92,10 @@ body {
   align-self: flex-start;
   border-radius: 5px;
   border: none;
+
+  background-color: var(--first-color);
+  color: var(--second-withe);
+  box-shadow: 2px 2px 3px 1px var(--first-black);
 }
 
 .main-picture {
