@@ -98,3 +98,31 @@ body {
   height: auto;
   width: 500px;
 }
+
+/* ----------------------------------------------------- second-section */
+
+.main-section.-withe-background {
+  background-color: var(--first-withe);
+  flex-direction: column;
+  align-items: center;
+
+  padding: 100px 10% 100px;
+}
+
+.items-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.item-container {
+  text-align: center;
+}
+
+.item-figure {
+  width: 150px;
+  height: 150px;
+
+  border: var(--first-color) solid 4px;
+  border-radius: 10px;
+}
