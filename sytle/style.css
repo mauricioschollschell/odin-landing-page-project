@@ -182,3 +182,15 @@ body {
   padding: 5px 20px;
   align-self: center;
 }
+
+/* ----------------------------------------------------- fourth-section */
+
+.footer {
+  text-align: center;
+  padding: 30px;
+  background-color: var(--second-color);
+}
+
+.footer-text {
+  color: var(--first-withe);
+}
