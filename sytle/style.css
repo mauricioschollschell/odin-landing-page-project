@@ -114,6 +114,10 @@ body {
 
   padding: 100px 10% 100px;
 }
+.second-title {
+  text-align: center;
+  padding-bottom: 20px;
+}
 
 .items-container {
   display: flex;
