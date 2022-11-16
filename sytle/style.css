@@ -155,3 +155,30 @@ body {
   font-weight: 900;
   font-size: 18px;
 }
+
+/* ----------------------------------------------------- fourth-section */
+
+.main-section.-withe-background {
+  background-color: var(--first-withe);
+  display: block;
+  padding: 100px 20% 100px;
+}
+
+.cta-container {
+  background-color: var(--first-color);
+  padding: 40px 80px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cta-title,
+.cta-paragraph {
+  color: var(--first-withe);
+}
+
+.main-button.-white-border {
+  border: var(--first-withe) solid 1px;
+  padding: 5px 20px;
+  align-self: center;
+}
