@@ -24,6 +24,7 @@ body {
   --first-color: #8a2be2;
   --second-color: #463f3a;
   --third-colo: #53f4ff;
+  --fourth-color: #1f2937;
 
   --first-black: #000;
 
@@ -130,4 +131,27 @@ body {
 
   border: var(--first-color) solid 4px;
   border-radius: 10px;
+}
+
+/* ----------------------------------------------------- third-section */
+
+.main-section.-gray-background {
+  background-color: var(--third-wite);
+  display: block;
+
+  padding: 100px 25% 100px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 500;
+  color: var(--fourth-color);
+  margin-bottom: 30px;
+}
+
+.quote-author {
+  text-align: right;
+  font-weight: 900;
+  font-size: 18px;
 }
